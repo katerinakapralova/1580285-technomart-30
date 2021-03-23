@@ -105,7 +105,8 @@ a {
   border: 0;
   box-sizing: border-box;
   color: var(--basic-white);
-  display: inline-block;
+  display:inline-block;
+  vertical-align:middle;
   font: 14px/18px 'cuprum','Helvetica Neue', Arial, sans-serif;
   outline: none;
   padding: 11px 24px;
@@ -601,7 +602,7 @@ a.site-navigation-link:active {
   position: relative;
 }
 
-.Sale {
+.sale {
   background-color: var(--special-green-light);
   grid-column: 3/4;
   grid-row: 2/3;
@@ -1014,7 +1015,7 @@ a.categories-button:active {
 }
 
 .services-tabs::after {
-  background-image: url('../img/table shadow.png');
+  background-image: url('../img/table-shadow.png');
   background-position: 1px center;
   background-repeat: no-repeat;
   bottom: 0;
@@ -1023,7 +1024,6 @@ a.categories-button:active {
   right: 0;
   top: 0;
   width: 10px;
-
 }
 
 .services-tab {
@@ -1034,7 +1034,7 @@ a.categories-button:active {
 .services-list-button {
   background: var(--special-blue-light);
   border: none;
-  box-shadow: 0px 1px 0px var(--special-blue), inset 0px 1px 0px var(--special-blue-lighter);
+  box-shadow: 0px 1px 0px var(--special-blue), inset 0px 1px 0px var(--special-blue);
   color: var(--basic-white);
   cursor: pointer;
   font: 700 21px/30px 'cuprum','Helvetica Neue', Arial, sans-serif;

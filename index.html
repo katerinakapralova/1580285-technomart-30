@@ -8,6 +8,7 @@
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/icons/apple.png">
   <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -20,7 +21,8 @@
         </a>
 
         <div class="header-search">
-          <input class="header-search-input" type="search" placeholder="Поиск:" />
+          <label for="input_id"></label>
+          <input class="header-search-input" id="input_id" type="search" placeholder="Поиск:" />
         </div>
 
         <ul class="header-controls">
@@ -53,19 +55,19 @@
                 fill="#C5C5C5" />
             </svg>
           </div>
-          <a class="login-control login-link" href="blank.html"> Войти</a>
-          <a class="login-control registration-link" href="blank.html">Регистрация</a>
+          <a class="login-control login-link" href="#"> Войти</a>
+          <a class="login-control registration-link" href="#">Регистрация</a>
         </div>
       </div>
       <nav class="header-navigation">
         <ul class="site-navigation">
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Главная</a></li>
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Компания</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Главная</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Компания</a></li>
           <li class="site-navigation-item"><a class="site-navigation-link" href="catalog.html">Каталог</a></li>
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Новости</a></li>
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Спецпредложения</a></li>
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Доставка</a></li>
-          <li class="site-navigation-item"><a class="site-navigation-link" href="blank.html">Контакты</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Новости</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Спецпредложения</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Доставка</a></li>
+          <li class="site-navigation-item"><a class="site-navigation-link" href="#">Контакты</a></li>
         </ul>
       </nav>
     </div>
@@ -75,7 +77,7 @@
       <h2 class="visually-hidden">Категории</h2>
       <div class="box materials">
         <p class="box-title">Материалы</p>
-        <a class="categories-button" href="blank.html">На любой вкус</a>
+        <a class="categories-button" href="#">На любой вкус</a>
         <div class="box-img-container">
           <img src="img/materials.svg" width="44" height="65" alt="Материалы" />
         </div>
@@ -83,28 +85,28 @@
       </div>
       <div class="box tool">
         <p class="box-title">Инструмент</p>
-        <a class="categories-button" href="blank.html">На все случаи</a>
+        <a class="categories-button" href="#">На все случаи</a>
         <div class="box-img-container">
           <img src="img/tools.svg" width="75" height="61" alt="Инструменты" />
         </div>
       </div>
       <div class="box technic">
         <p class="box-title">Техника</p>
-        <a class="categories-button" href="blank.html">Для стройки</a>
+        <a class="categories-button" href="#">Для стройки</a>
         <div class="box-img-container">
           <img src="img/technic.svg" width="78" height="62" alt="Техника" />
         </div>
       </div>
-      <div class="box Sale">
+      <div class="box sale">
         <p class="box-title">Скидки 50&percnt;</p>
-        <a class="categories-button" href="blank.html">На 350 товаров</a>
+        <a class="categories-button" href="#">На 350 товаров</a>
         <div class="box-img-container">
-          <img src="img/Sale.svg" width="59" height="72" alt="Скидки 50%" />
+          <img src="img/sale.svg" width="59" height="72" alt="Скидки 50%" />
         </div>
       </div>
       <div class="box delivery">
         <p class="box-title">Доставка</p>
-        <a class="categories-button" href="blank.html">Бесплатно</a>
+        <a class="categories-button" href="#">Бесплатно</a>
         <div class="box-img-container">
           <img src="img/delivery.svg" width="78" height="63" alt="Доставка" />
         </div>
@@ -117,7 +119,7 @@
 
         <img class="slider-punch" src="img/man-with-punch.jpg" width="620" height="266" alt="Мужчина с перфоратором" />
 
-        <a class="basic-button slider-button" href="blank.html">Открыть каталог</a>
+        <a class="basic-button slider-button" href="#">Открыть каталог</a>
 
         <button class="slider-arrow slider-arrow_left" type="button"></button>
         <button class="slider-arrow slider-arrow_right" type="button"></button>
@@ -130,12 +132,12 @@
     <section class="popular-products">
       <div class="section-title">
         <h2 class="caption section-title-text">Популярные товары:</h2>
-        <a class="basic-button section-title-button" href="blank.html">Все популярные товары</a>
+        <a class="basic-button section-title-button" href="#">Все популярные товары</a>
       </div>
 
       <ul class="popular-products-list">
         <li class="products-item">
-          <a href="product.html" class="products-link">
+          <a href="#" class="products-link">
             <img src="img/index-products/product1.jpg" width="184" height="164" alt="Перфоратор  BOSCH BFG 9000"
               class="products-image" />
           </a>
@@ -151,7 +153,7 @@
         </li>
 
         <li class="products-item">
-          <a class="products-link" href="product.html">
+          <a class="products-link" href="#">
             <img src="img/index-products/product2.jpg" width="127" height="112" alt="Перфоратор  BOSCH BFG 3000"
               class="products-image" />
           </a>
@@ -168,7 +170,7 @@
         </li>
 
         <li class="products-item">
-          <a href="product.html" class="products-link">
+          <a href="#" class="products-link">
             <img class="products-image" src="img/catalog-products/product4.jpg" width="144" height="128"
               alt="Перфоратор  BOSCH BFG 6000" />
           </a>
@@ -182,7 +184,7 @@
         </li>
 
         <li class="products-item">
-          <a href="product.html" class="products-link">
+          <a href="#" class="products-link">
             <img class="products-image" src="img/catalog-products/product5.jpg" width="127" height="112"
               alt="Перфоратор  BOSCH BFG 2000" />
           </a>
@@ -201,7 +203,7 @@
     <section class="popular-manufacturers">
       <div class="section-title">
         <h2 class="caption section-title-text">Популярные производители</h2>
-        <a class="basic-button section-title-button" href="blank.html">Все производители</a>
+        <a class="basic-button section-title-button" href="#">Все производители</a>
       </div>
       <ul class="popular-manufacturers-list">
         <li class="popular-manufacturers-item">
@@ -211,35 +213,35 @@
         </li>
         <li class="popular-manufacturers-item">
           <a class="popular-manufacturers-link" href="#">
-            <img src="img/Makita.jpg" width="123" height="40" alt="makita" />
+            <img src="img/makita.jpg" width="123" height="40" alt="makita" />
           </a>
         </li>
         <li class="popular-manufacturers-item">
           <a class="popular-manufacturers-link" href="#">
-            <img src="img/DeWALT.jpg" width="146" height="44" alt="dewalt" />
+            <img src="img/dewalt.jpg" width="146" height="44" alt="dewalt" />
           </a>
         </li>
         <li class="popular-manufacturers-item">
           <a class="popular-manufacturers-link" href="#">
-            <img src="img/Интерскол.jpg" width="220" height="75" alt="интерскол" />
+            <img src="img/interskol.jpg" width="220" height="75" alt="interskol" />
           </a>
         </li>
         <li class="popular-manufacturers-item">
           <a class="popular-manufacturers-link" href="#">
-            <img src="img/Hitachi.jpg" width="169" height="31" alt="hitachi" />
+            <img src="img/hitachi.jpg" width="169" height="31" alt="hitachi" />
           </a>
         </li>
         <li class="popular-manufacturers-item"><a class="popular-manufacturers-link" href="#">
-            <img src="img/LG.jpg" width="121" height="73" alt="lg" />
+            <img src="img/lg.jpg" width="121" height="73" alt="lg" />
           </a>
         </li>
         <li class="popular-manufacturers-item">
           <a class="popular-manufacturers-link" href="#">
-            <img src="img/AEG.jpg" width="151" height="96" alt="aeg" />
+            <img src="img/aeg.jpg" width="151" height="96" alt="aeg" />
           </a>
         </li>
         <li class="popular-manufacturers-item"><a class="popular-manufacturers-link" href="#">
-            <img src="img/Metabo.jpg" width="204" height="69" alt="metabo" />
+            <img src="img/metabo.jpg" width="204" height="69" alt="metabo" />
           </a>
         </li>
       </ul>
@@ -314,25 +316,25 @@
 
         <nav class="footer-navigation">
           <ul class="footer-navigation-items">
-            <li class="footer-navigation-item"><a class="footer-navigation-link" href="blank.html">Компания</a></li>
-            <li class="footer-navigation-item"><a class="footer-navigation-link" href="blank.html">Новости</a></li>
+            <li class="footer-navigation-item"><a class="footer-navigation-link" href="#">Компания</a></li>
+            <li class="footer-navigation-item"><a class="footer-navigation-link" href="#">Новости</a></li>
             <li class="footer-navigation-item"><a class="footer-navigation-link" href="catalog.html">Каталог</a></li>
-            <li class="footer-navigation-item"><a class="footer-navigation-link" href="blank.html">Доставка</a></li>
-            <li class="footer-navigation-item"><a class="footer-navigation-link" href="blank.html">Контакты</a></li>
+            <li class="footer-navigation-item"><a class="footer-navigation-link" href="#">Доставка</a></li>
+            <li class="footer-navigation-item"><a class="footer-navigation-link" href="#">Контакты</a></li>
           </ul>
 
           <ul class="footer-navigation-items footer-navigation-items_contrast">
             <li class="footer-navigation-item">
-              <a class="footer-navigation-link" href="blank.html">Материалы</a>
+              <a class="footer-navigation-link" href="#">Материалы</a>
             </li>
             <li class="footer-navigation-item">
-              <a class="footer-navigation-link" href="blank.html">Техника</a>
+              <a class="footer-navigation-link" href="#">Техника</a>
             </li>
             <li class="footer-navigation-item">
-              <a class="footer-navigation-link" href="blank.html">Инструмент</a>
+              <a class="footer-navigation-link" href="#">Инструмент</a>
             </li>
             <li class="footer-navigation-item">
-              <a class="footer-navigation-link" href="blank.html">Спецпредложения</a>
+              <a class="footer-navigation-link" href="#">Спецпредложения</a>
             </li>
           </ul>
         </nav>
